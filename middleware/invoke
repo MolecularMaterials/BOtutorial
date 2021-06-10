@@ -3,6 +3,6 @@
 #
 # jupyter tool
 #
-/usr/bin/invoke_app "$@" -t hubtoolshortname \
+/usr/bin/invoke_app "$@" -t bayesopt \
                          -C "start_jupyter -t -T @tool HBE_BayesOpt.ipynb" \
                          -u anaconda-6
