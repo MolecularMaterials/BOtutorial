@@ -4,5 +4,5 @@
 # jupyter tool
 #
 /usr/bin/invoke_app "$@" -t hubtoolshortname \
-                         -C "start_jupyter -t -T @tool hubtoolshortname.ipynb" \
+                         -C "start_jupyter -t -T @tool HBE_BayesOpt.ipynb" \
                          -u anaconda-6
